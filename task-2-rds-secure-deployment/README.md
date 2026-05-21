@@ -31,14 +31,12 @@ This setup simulates a real-world enterprise database environment where security
 5. Security groups restricted access to required ports only
 
     Conclusion
+
 This project successfully demonstrates a secure and scalable AWS RDS MySQL deployment with enterprise-grade security controls.
-
 Key achievements include:
-
 Secure private database architecture using VPC
 IAM-based authentication with temporary credentials
 Automated credential management using Secrets Manager
 Encrypted database communication using TLS
 Verified data recovery using Point-in-Time Restore
-
 Overall, this setup reflects real-world cloud database security practices and ensures confidentiality, integrity, and availability of data.
