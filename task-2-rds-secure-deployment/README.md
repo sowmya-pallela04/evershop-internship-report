@@ -14,7 +14,7 @@ This setup simulates a real-world enterprise database environment where security
 2. RDS MySQL in private subnet
 3. EC2 in public subnet
 
-    AWS Services Used
+         AWS Services Used
 1. Amazon VPC
 2. Amazon RDS (MySQL)
 3. AWS IAM (Identity and Access Management)
@@ -23,14 +23,14 @@ This setup simulates a real-world enterprise database environment where security
 6. SSL/TLS Encryption
 7. AWS RDS Point-in-Time Recovery (PITR)
 
-    Security Implementation
+            Security Implementation
 1. Database deployed in private subnet (no public access)
 2. IAM authentication used instead of passwords
 3. Secrets Manager used for credential storage and rotation
 4. TLS enforced for all database connections
 5. Security groups restricted access to required ports only
 
-    Conclusion
+          Conclusion
 
 This project successfully demonstrates a secure and scalable AWS RDS MySQL deployment with enterprise-grade security controls.
 Key achievements include:
