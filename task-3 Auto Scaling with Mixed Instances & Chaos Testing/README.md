@@ -21,7 +21,9 @@ The architecture follows a multi-tier cloud-native design:
 6. Instances are deployed across multiple Availability Zones for high availability
 7. Lifecycle hooks ensure instances complete initialization (such as application startup and database migration) before becoming active
 
-    AWS Services Used
+
+
+             AWS Services Used
 The following AWS services were used in this project:
 
 1. Amazon EC2 – Hosting the application instances
@@ -34,7 +36,7 @@ The following AWS services were used in this project:
 8. Availability Zones (AZs) – Ensures high availability and fault tolerance
 9. Spot Instances & On-Demand Instances – Used in mixed instance policy for cost optimization
 
-    Chaos Testing
+                Chaos Testing
 To validate system resilience, chaos testing was performed:
 
 1. Manually terminated EC2 instances to simulate failure
@@ -44,7 +46,7 @@ To validate system resilience, chaos testing was performed:
 5. Applied load testing to verify scaling behavior under high traffic conditions
 6. Observed zero downtime during scaling and failure recovery events
 
-    Challenges Faced
+           Challenges Faced
 During implementation, several challenges were encountered:
 
 1. Database connection issues due to incorrect configuration and missing PostgreSQL setup
@@ -53,8 +55,8 @@ During implementation, several challenges were encountered:
 4. Debugging ALB unhealthy states caused by application startup crashes
 5. Ensuring proper integration between Auto Scaling Group and ALB target registration
 These issues were resolved through systematic debugging of application logs, AWS configuration, and infrastructure setup.
-
-    Conclusion
+       
+            Conclusion
 
 This project successfully demonstrates a production-grade AWS architecture with high availability, scalability, and fault tolerance.
 By implementing Auto Scaling Groups with mixed instance policies, lifecycle hooks, and chaos testing, 
