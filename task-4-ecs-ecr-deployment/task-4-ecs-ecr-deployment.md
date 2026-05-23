@@ -14,7 +14,7 @@ Traffic is routed through an Application Load Balancer to ECS tasks running on E
 Configuration values are securely managed through Parameter Store, while CI/CD automation is integrated with GitHub for automated deployments.
 
                               AWS Services Used
-Service                          	Purpose
+Service  ---                        	Purpose
 
 Amazon Elastic Container Registry   ---	Store Docker images
 Amazon Elastic Container Service    ---	Deploy and manage containers
