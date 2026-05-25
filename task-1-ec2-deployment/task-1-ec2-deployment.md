@@ -50,7 +50,7 @@ S3 (Maintenance Site - Failover)
 5. Amazon S3 (Static maintenance site)
 6. AWS Certificate Manager (ACM - Pending validation)
 
-    Working Application URL
+            Working Application URL
 
 evershop-ALB-1176732267.ap-south-1.elb.amazonaws.com
 
@@ -61,7 +61,7 @@ evershop-ALB-1176732267.ap-south-1.elb.amazonaws.com
 3. CloudFront deployment blocked due to AWS account verification requirement
 4. Production domain mapping not available at this stage
 
-    Conclusion
+             Conclusion
 
 The project successfully demonstrates a secure and scalable AWS architecture for an e-commerce application.
  All core infrastructure components have been implemented and tested successfully within the allowed environment constraints.
