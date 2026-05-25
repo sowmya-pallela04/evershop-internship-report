@@ -1,0 +1,18 @@
+
+                                                       Final Report:
+
+During the internship project, I successfully completed the assigned AWS deployment tasks as per the instructions provided.
+The implementation included setting up the required infrastructure and deploying the application on AWS services.
+
+However, there were certain limitations imposed by the internship team regarding DNS configuration. Specifically, 
+the DNS name was not permitted to be modified or assigned as part of the setup. Due to this restriction, 
+the DNS mapping part of the deployment could not be completed fully.
+Additionally, for SSL certificate configuration, a valid domain name (DNS) is required. Since the DNS setup was restricted by the internship guidelines, 
+The certificate configuration step could not be completed as it depends on an active domain.
+
+As per the guidance from the internship team, I proceeded with the remaining deployment tasks without DNS and ensured all 
+Other components were implemented and verified successfully.
+
+                                                       Conclusion
+
+The core deployment and AWS infrastructure setup were completed successfully. The only incomplete part was DNS and SSL certificate configuration due to internship-level restrictions, and the work was continued as instructed.
