@@ -1,0 +1,10 @@
+                                     FINAL REPORT
+
+I implemented an advanced S3-based image storage system by creating a private Amazon S3 bucket with bucket-owner-enforced access and default encryption 
+enabled to ensure secure data storage. Pre-signed URLs were configured to allow controlled, time-limited upload and download access 
+without exposing the bucket publicly. 
+CloudFront was integrated to efficiently serve product images globally with improved performance and caching. 
+An S3 Object Lambda layer was used to dynamically transform images on request, such as generating thumbnails. 
+Lifecycle policies were configured to automatically move objects to Intelligent-Tiering and Glacier storage classes for cost optimization, 
+while S3 Inventory was enabled for tracking and auditing stored objects. Additionally,
+a malware scanning mechanism was implemented using AWS Lambda with ClamAV to automatically scan new uploads and ensure only safe files are stored in the bucket.
