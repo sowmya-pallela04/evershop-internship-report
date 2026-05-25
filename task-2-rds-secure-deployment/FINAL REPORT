@@ -1,0 +1,10 @@
+
+                                             FINAL REPORT
+
+This task involved deploying a secure, production-like Amazon RDS MySQL database in a private Multi-AZ setup with no public access, 
+ensuring high availability and data protection. IAM database authentication was enabled so EC2 instances could securely access the database using 
+temporary tokens instead of static credentials, while TLS-only enforcement ensured all connections were encrypted. 
+Database credentials were managed using AWS Secrets Manager with automatic rotation configured through Lambda, improving security 
+and reducing manual handling of sensitive data. The application EC2 instance was placed in a private subnet with an attached IAM role to retrieve 
+authentication tokens dynamically and connect securely to the RDS instance. Backup and point-in-time recovery (PITR) were enabled and validated to ensure
+the database could be restored within a minimal recovery window (RPO within 5 minutes), confirming reliable disaster recovery capability.
